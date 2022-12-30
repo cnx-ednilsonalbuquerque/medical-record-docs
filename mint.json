@@ -32,8 +32,8 @@
     {
       "name": "Repositórios",
       "icon": "github",
-      "color": "#4064C5",
-      "url": "/repos/projects"
+      "color": "#FF646E",
+      "url": "repos"
     }
   ],
   "navigation": [
@@ -71,10 +71,5 @@
       "group": "Repositorios",
       "pages": ["repos/projects"]
     }
-  ],
-  "footerSocials": {
-    "github": "https://github.com/mintlify",
-    "discord": "https://discord.gg/MPNgtSZkgK",
-    "twitter": "https://twitter.com/mintlify"
-  }
+  ]
 }
