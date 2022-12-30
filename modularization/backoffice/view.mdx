@@ -1,0 +1,30 @@
+---
+title: "Visualizar Template"
+description: "Listar templates da clinica"
+api: "GET templatesMedicalRecords/clinic/{idClinic}"
+---
+
+<ParamField query="active" type="boolean" required>
+  Listar apenas os templates ativos
+</ParamField>
+
+<ParamField path="idClinic" type="string" required>
+  Id da clínica
+</ParamField>
+
+<RequestExample>
+```bash Example Request
+  curl --request GET \
+     --url https://hml-api.conexasaude.com.br/v2/templatesMedicalRecords/clinic/10?active=true \
+     --header 'accept: application/json'
+```
+</RequestExample>
+
+<ResponseExample>
+  ```json Example Response
+  {
+    "success": true,
+    "message": "Hello world"
+  }
+  ```
+</ResponseExample>

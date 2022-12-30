@@ -1,0 +1,86 @@
+{
+  "name": "Medical Record",
+  "logo": {
+    "light": "/assets/logo/light.svg",
+    "dark": "/assets/logo/dark.svg"
+  },
+  "api": {
+    "baseUrl": "https://hml-api.conexasaude.com.br/v2/"
+  },
+  "favicon": "/favicon.svg",
+  "modeToggle": {
+    "default": "light",
+    "isHidden": false
+  },
+  "colors": {
+    "primary": "#FF646E",
+    "light": "#FF646E",
+    "dark": "#001447",
+    "ultraLight": "#EEEBFF",
+    "ultraDark": "#0A0A32",
+    "background": {
+      "dark": "#0A0A32"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Prontuário",
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/zenorocha/react-email"
+  },
+  "anchors": [
+    {
+      "name": "Prontuário",
+      "icon": "stethoscope",
+      "color": "#4064C5",
+      "url": "api-components"
+    },
+    {
+      "name": "Repositórios",
+      "icon": "github",
+      "color": "#4064C5",
+      "url": "https://discord.gg/MPNgtSZkgK"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": ["introduction", "quickstart"]
+    },
+    {
+      "group": "Getting Started",
+      "pages": ["getting-started/installation"]
+    },
+    {
+      "group": "Modularizacao",
+      "pages": [
+        "modularization/introduction",
+        {
+          "group": "Backoffice",
+          "pages": ["modularization/backoffice/view"]
+        },
+        {
+          "group": "Prontuário",
+          "pages": ["modularization/medical-record/list"]
+        }
+      ]
+    },
+    {
+      "group": "Settings",
+      "pages": ["settings/global", "settings/page"]
+    },
+    {
+      "group": "Analytics",
+      "pages": ["analytics/posthog"]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/mintlify",
+    "discord": "https://discord.gg/MPNgtSZkgK",
+    "twitter": "https://twitter.com/mintlify"
+  }
+}

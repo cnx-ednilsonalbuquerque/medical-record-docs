@@ -1,0 +1,30 @@
+---
+title: 'Modularização'
+sidebarTitle: 'Modularização'
+description: 'Componentes dinâmicos do prontuário'
+---
+
+A modularização é uma forma de apresentar os componentes do prontuário dinamicamente.
+A equipe médica que faz a gestão dos prontuários para cada clínica, agora pode escolher quais componentes podem ou não
+aparecer, bem como definir se eles podem ou não sofrer validações.
+
+## Resolve qual problema?
+
+Sempre tínhamos no nosso fluxo a necessidade de fazer validações ou tornar visível/invisível componentes para clínicas especificas.
+Também tínhamos a necessidade de definir regras específicas para cada tipo de conselho e tipo de atendimento.
+Com a modularização, temos um ganho de arrumação e clareza nas estruturas, bem como a tratativa desses casos e fluxos
+por parte da equipe de gestão. Isso gera um trabalho menor para a equipe na perspectiva de incluir ou modificar fluxos
+e regras.
+
+## Fluxos
+
+### Tabelas e Estrutura do banco de dados
+- [Estrutura do Template](https://github.com/conexasaude/conexa-api/pull/697)
+- [Tabela de Vinculo Entre Template e Atendimento](https://github.com/conexasaude/conexa-api/pull/722)
+
+
+### Tela para visualizar os templates ativos
+  * **Descrição:** Nessa tela mostramos os templates que estão vinculados a clínica.
+  * [Controller](./patient-record/br/com/conexasaude/patientrecord/controller/modularization/TemplateMedicalRecordsController.java)
+  * [Request Example](/modularization/backoffice/view)
+
