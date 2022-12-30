@@ -5,7 +5,7 @@
     "dark": "/assets/logo/dark.svg"
   },
   "api": {
-    "baseUrl": "https://hml-api.conexasaude.com.br/v2/"
+    "baseUrl": "https://hml-api.conexasaude.com.br/"
   },
   "favicon": "/favicon.svg",
   "colors": {

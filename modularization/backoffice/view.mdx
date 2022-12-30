@@ -1,11 +1,11 @@
 ---
 title: "Visualizar Template"
 description: "Listar templates da clinica"
-api: "GET templatesMedicalRecords/clinic/{idClinic}"
+api: "GET v2/templatesMedicalRecords/clinic/{idClinic}/active"
 ---
 
-<ParamField query="active" type="boolean" required>
-  Listar apenas os templates ativos
+<ParamField header="token" type="string" required>
+  Token para autenticação
 </ParamField>
 
 <ParamField path="idClinic" type="string" required>
@@ -15,8 +15,32 @@ api: "GET templatesMedicalRecords/clinic/{idClinic}"
 <ResponseExample>
   ```json Example Response
   {
-    "success": true,
-    "message": "Hello world"
+  "status": 200,
+  "msg": null,
+  "object": [
+    {
+      "idTemplate": 1,
+      "name": "Template Padrão Pronto Atendimento",
+      "typeHealthCare": "PRONTO_ATENDIMENTO",
+      "medicalCouncil": "CRM",
+      "soape": false
+    },
+    {
+      "idTemplate": 2,
+      "name": "Template Padrão Atendimento Agendado",
+      "typeHealthCare": "AGENDADO",
+      "medicalCouncil": "CRM",
+      "soape": true
+    },
+    {
+      "idTemplate": 3,
+      "name": "Template Padrão Atenção Primária de Saúde",
+      "typeHealthCare": "ATENCAO_PRIMARIA_SAUDE",
+      "medicalCouncil": "CRM",
+      "soape": true
+    }
+  ],
+  "timestamp": 1672369796274
   }
   ```
 </ResponseExample>
