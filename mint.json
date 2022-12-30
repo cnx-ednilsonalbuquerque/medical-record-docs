@@ -39,11 +39,7 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["introduction", "quickstart"]
-    },
-    {
-      "group": "Getting Started",
-      "pages": ["getting-started/installation"]
+      "pages": ["introduction"]
     },
     {
       "group": "Modularizacao",
@@ -51,7 +47,7 @@
         "modularization/introduction",
         {
           "group": "Backoffice",
-          "pages": ["modularization/backoffice/view"]
+          "pages": ["modularization/backoffice/view", "modularization/backoffice/options"]
         },
         {
           "group": "Prontuário",

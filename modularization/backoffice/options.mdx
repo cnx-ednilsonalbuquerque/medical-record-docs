@@ -1,0 +1,43 @@
+---
+title: "Opções Cadastro Template"
+description: "Essas são as opção para que o cadastro do template seja possível."
+api: "GET v2/templatesMedicalRecords/options/active"
+---
+
+<ParamField header="token" type="string" required>
+  Token para autenticação
+</ParamField>
+
+<ResponseExample>
+  ```json Example Response
+  {
+    "status": 200,
+    "msg": null,
+    "object": {
+      "components": [
+        {
+          "keyName": "QUEIXA_PRINCIPAL",
+          "fullName": "Queixa Principal",
+          "validable": true,
+          "soapCategory": "SUBJETIVO"
+        },
+        {
+          "keyName": "HISTORIA",
+          "fullName": "História",
+          "validable": true,
+          "soapCategory": "SUBJETIVO"
+        },
+      ],
+      "medicalCouncils": [
+        "CRM"
+      ],
+      "typeHealthCares": [
+        "AGENDADO",
+        "PRONTO_ATENDIMENTO",
+        "ATENCAO_PRIMARIA_SAUDE"
+      ]
+    },
+    "timestamp": 1672370531446
+  }
+  ```
+</ResponseExample>
