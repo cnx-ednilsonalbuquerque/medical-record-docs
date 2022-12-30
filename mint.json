@@ -5,9 +5,14 @@
     "dark": "/assets/logo/dark.svg"
   },
   "api": {
-    "baseUrl": "https://hml-api.conexasaude.com.br/"
+    "baseUrl": "https://hml-api.conexasaude.com.br/",
+    "auth": {
+      "method": "key",
+      "name": "token",
+      "inputPrefix": "eyJhbGciOiJIUzI1NiIsInppcCI6IkRFRiJ9.eNp0jkEKwjAURO8y6xBM0dpmZUEsBfUOafOVwO9PTQkUxLsbcO1idu895o3Lteu78224w0pmVpA4EyzIS-A1inY85lemVHaCQvCwVd20rdkrcHwG-QdPUWhzq8ue9BRnPaai07bAmvpYNTtzMEZhofQIXBq_E58vAAAA__8.2KlfDrkoZRJ2blrynSSIjiGLLQ_bT2XqP0UcHlv92vs"
+    }
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/assets/favicon.svg",
   "colors": {
     "primary": "#FF646E",
     "light": "#FF646E",

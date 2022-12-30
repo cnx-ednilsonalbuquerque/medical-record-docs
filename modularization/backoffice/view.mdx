@@ -4,11 +4,7 @@ description: "Listar templates ativos da clinica"
 api: "GET v2/templatesMedicalRecords/clinic/{idClinic}/active"
 ---
 
-<ParamField header="token" type="string" required>
-  Token para autenticação
-</ParamField>
-
-<ParamField path="idClinic" type="string" required>
+<ParamField path="idClinic" type="string" default="10" required>
   Id da clínica
 </ParamField>
 
