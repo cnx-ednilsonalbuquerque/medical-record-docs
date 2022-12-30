@@ -30,16 +30,10 @@
   },
   "anchors": [
     {
-      "name": "Prontuário",
-      "icon": "stethoscope",
-      "color": "#4064C5",
-      "url": "api-components"
-    },
-    {
       "name": "Repositórios",
       "icon": "github",
       "color": "#4064C5",
-      "url": "https://discord.gg/MPNgtSZkgK"
+      "url": "/repos/projects"
     }
   ],
   "navigation": [
@@ -72,6 +66,10 @@
     {
       "group": "Analytics",
       "pages": ["analytics/posthog"]
+    },
+    {
+      "group": "Repositorios",
+      "pages": ["repos/projects"]
     }
   ],
   "footerSocials": {
