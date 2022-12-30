@@ -8,10 +8,6 @@
     "baseUrl": "https://hml-api.conexasaude.com.br/v2/"
   },
   "favicon": "/favicon.svg",
-  "modeToggle": {
-    "default": "light",
-    "isHidden": false
-  },
   "colors": {
     "primary": "#FF646E",
     "light": "#FF646E",
